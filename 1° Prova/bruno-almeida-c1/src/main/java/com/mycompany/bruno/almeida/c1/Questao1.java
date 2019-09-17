@@ -1,3 +1,24 @@
+/*1. (Peso: 40% da nota da prova) Luiz Quisito está treinando em alto nível na modalidade de corrida de 100m rasos. Seu sonho é bater o recorde de Usain Bolt um dia. Para isso ele precisa de um programa que registre seu tempo e compare com diversos recordes. Ajude Luiz criando uma classe Java que:
+
+a) Seja executável
+
+b) Pergunte ao usuário em quantos segundos ele fez sua última corrida de 100m. Aceite valores decimais. Caso o usuário insira 0 ou menos, exiba "Muito engraçado! #SQN" e não faça mais nada. Caso contrário, prossiga para c)
+
+c) Compare seu tempo com outros recordes, que são:
+    Recorde brasileiro: 10,00s
+    Recorde sul americano: 9,80s
+    Recorde olímpico: 9,63s
+    Recorde mundial: 9,58s
+
+d) A partir das diferenças calculadas, exiba 4 frases como estas (no exemplo ele fez em 9,75s):
+    Recorde brasileiro: BATIDO por 0.25s
+    Recorde sul americano: BATIDO por 0.05s
+    Recorde olímpico: Faltam 0.13s para bater
+    Recorde mundial: Faltam 0.18s para bater
+Ou seja, você deve calcular de o recorde foi batido ou não e exibir a frase com a diferença de tempo por qual bateu ou que falta para bater. Em caso de valor igual a algum recorde, exiba o mesmo para o caso de faltar, o seja, "Faltam 0.01s para bater"
+
+e) Segundo estimativas, um atleta reduz em 0,01s seu tempo a cada 6 meses de treino. Assim, calcule quanto tempo o Luiz ainda deve treinar para bater o recorde mundial e exiba uma frase como esta (no exemplo ele fez em 9,75s): "Provavelmente, se treinar por mais X meses, vai bater o recorde mundial"
+f) Supondo que ele já tenha batido o recorde mundial, apenas exiba "Parabéns! Você é o homem mais rápido do mundo!"*/
 
 package com.mycompany.bruno.almeida.c1;
 
