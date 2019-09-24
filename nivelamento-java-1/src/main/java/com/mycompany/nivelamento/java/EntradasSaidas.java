@@ -66,7 +66,8 @@ public class EntradasSaidas {
 
         System.out.println(
             "Você mede "+altura+" e está no "+semestre+"º sem.");
-
+        
+        //é assim que funciona
 
     }
 }
